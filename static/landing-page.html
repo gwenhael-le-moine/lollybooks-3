@@ -12,16 +12,8 @@
 	<link rel="stylesheet" media="all" href="css/lessframework.css"/>
 	<link rel="stylesheet" media="all" href="css/lollybooks.css"/>
 
-	<meta name="viewport" content="width=device-width; initial-scale=1"/>
 	<!-- Add "maximum-scale=1" to fix the weird iOS auto-zoom bug on orientation changes. -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-    <script src="js/maphilight/jquery.maphilight.min.js"></script>
-
-    <script>
-    $(function() {
-	    $('img[usemap]').maphilight();
-	});
-    </script>
+	<meta name="viewport" content="width=device-width; initial-scale=1"/>
 
   </head>
 
@@ -61,7 +53,7 @@
 
     <aside id="contact">
       <span class="center">
-        Số 18, Ngõ 131, Thai Ha, Hà Nội
+        Số 18, Ngõ 131, Thái Hà, Hà Nội
         ~
         http://facebook.com/lollybooks
         ~
@@ -93,12 +85,12 @@
             Map
           </div>
 		</li>
-        <li class="widget-container">
+        <li id="tempidwidgetcalendar" class="widget-container round">
           <div>
             Calendar
           </div>
 		</li>
-        <li class="widget-container">
+        <li id="tempidwidgetfilmslist" class="widget-container round">
           <div>
             List of coming films
           </div>
@@ -145,7 +137,18 @@
 
       <span class="copyright center">Copyright ©2010 Lollybooks, bla bla bla</span>
     </footer>
-    
+
+    <!-- We put all javascript hereso that DOM is loaded when JS is called -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <!-- http://plugins.jquery.com/project/maphilight -->
+    <script src="js/maphilight/jquery.maphilight.min.js"></script>
+    <!-- http://code.google.com/p/jquerycurvycorners/ -->
+    <script src="js/jquerycurvycorners/jquery.curvycorners.packed.js"></script>
+    <script>
+    $(function() {
+	    $('img[usemap]').maphilight();
+	});
+    </script>
   </body>
   
 </html>

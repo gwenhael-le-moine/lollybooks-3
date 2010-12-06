@@ -1,4 +1,4 @@
-/* DEV */
+/* DEV*/
 
 /* reset */
 body {
@@ -30,6 +30,11 @@ footer {
     float:left}
 .right {
     float:right}
+/*http://code.google.com/p/jquerycurvycorners/*/
+.round {
+    border-radius:7px;
+    -webkit-border-radius:7px;
+    -moz-border-radius:7px}
 
 /* specifics */
 #skiptocontent {
@@ -86,6 +91,8 @@ aside.left {
 /* aside right */
 aside.right {
     width:20%}
+#tempidwidgetcalendar, #tempidwidgetfilmslist {
+    border: 1px black solid}
 
 /* main content */
 #content {
