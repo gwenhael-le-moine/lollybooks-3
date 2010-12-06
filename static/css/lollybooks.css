@@ -1,77 +1,98 @@
 /* DEV */
-aside, #content {
-    border: 1px red solid; }
 
 /* reset */
 body {
-    margin: 0 auto;
-    padding: 0; }
+    margin:0 auto;
+    padding:0}
+
+/* colors */
+header {
+    background-color:rgb(65, 28, 9)}
+nav a {
+    text-shadow: 0 -2px white, 2px 0 white, 0 2px white, -2px 0 white;
+    color:black}
+nav {
+    background-color:rgb(24, 0, 0)}
+html, body, aside, #content, #content footer, #content footer a {
+    color:black;
+    background-color:rgb(249, 235, 206)}
+footer, footer a {
+    color:rgb(218, 200, 164)}
+footer {
+    background-color:rgb(99, 56, 39)}
 
 /* utils */
 .center {
-    display: block;
-    width: 50%;
-    margin: 0 auto; }
+    display:block;
+    width:50%;
+    margin:0 auto}
 .left {
-    float: left; }
+    float:left}
 .right {
-    float: right; }
+    float:right}
 
 /* specifics */
 #skiptocontent {
-    position: absolute;
-    top: 1px;
-    right: 1px; }
+    position:absolute;
+    top:1px;
+    right:1px}
 
 /* menu */
 .menu li {
     list-style:none;
     float:left;
     text-align:center;
-    background-color: transparent;
+    background-color:transparent;
     width:4em;
-    height: 2em; }
+    height:2em}
 .menu li:hover {
-    opacity: 60%;
-    background-color: #eb3f01; }
+    opacity:60%;
+    background-color:#eb3f01}
 
 /* header */
 header {
-    width:100%;}
+    width:100%}
 header .background {
-    width: 960px; }
+    width:960px}
 
 /* top menu */
 nav {
     float:left;
-    width: 100%; }
+    width:100%}
 .logo {
-    width: 120px; }
+    width:120px}
 nav .menu {
-    width:40%; }
+    width:40%}
 .menu li {
     /*in the 2-parts top menu there's 3 elements */
     /* in each part */
-    width:33%;}
+    width:33%}
 .menu.right li {
-    float:right;}
+    float:right}
 
-/* aside left */
+/* aside */
 aside li {
-    list-style:none;}
+    width:95%;
+    min-height: 10em;
+    list-style:none}
+/* aside left */
 aside.left {
-    width: 30%; }
+    width:30%}
 /* aside right */
 aside.right {
-    width: 20%; }
+    width:20%}
 
 /* main content */
 #content {
-    width: auto; }
+    margin-left:30%;
+    width:50%}
 
 /* footer */
 footer .menu {
-    width:100%; }
+    width:100%}
 footer .menu li {
     /*in the footer's menu there's 5 elements */
-    width:20%;}
+    width:20%}
+
+.copyright {
+    text-align:center}
