@@ -88,6 +88,8 @@ aside.right {
     width:50%}
 
 /* footer */
+footer {
+    clear:both}
 footer .menu {
     width:100%}
 footer .menu li {
