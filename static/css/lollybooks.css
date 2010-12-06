@@ -55,6 +55,11 @@ header {
 header .background {
     width:960px}
 
+/* contact */
+#contact, #contact span {
+    text-align:center;
+    width:100%}
+
 /* top menu */
 nav {
     float:left;
