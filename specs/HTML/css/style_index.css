@@ -1,0 +1,263 @@
+/* CSS Document */
+
+body{
+	background:url(../images/bg_banner.jpg) repeat-x top #f9ebce;
+	font:0.8em "Times New Roman", Times, serif;
+	margin:0px;		
+}
+
+.banner_top{
+	background:url(../images/banner.jpg) center no-repeat;
+	height:511px;
+}
+
+.menutop{
+	margin:auto;
+	width:1000px;
+}
+
+.menutop a{
+	padding:0px 5px 0px 35px;
+}
+
+/**********content**********/
+
+.content{
+	background:url(../images/bg_content.jpg) no-repeat center top;
+	padding-top:60px;
+}
+
+.content_in{
+	width:1000px;
+	margin:auto;
+	overflow:hidden;
+}
+
+.left_content{
+	width:296px;
+	float:left;
+}
+
+.banner_left{
+	background:url(../images/banner_left.jpg) no-repeat;
+	width:296px;
+	height:195px;
+	padding:34px 0px 0px 9px;
+}
+
+
+.posion_banner_left{
+}
+
+.recent_post{
+	margin-top:20px;
+}
+
+
+.tittle_Recent_Posts{
+	font-size:18px;
+	color:#3c1401;
+	font-weight:bold;
+}
+
+.link_recent_post{
+	margin-top:20px;
+	background:url(../images/bg_link_recentpost.gif) repeat;
+}
+
+.link_recent_post a{
+	background:url(../images/dot_link_recent.gif) no-repeat top left;
+	line-height:22px;
+	font-size:14px;
+	color:#3c1401;
+	text-decoration:none;
+	padding-left:10px;
+	display:block;
+}
+
+.link_recent_post a:hover{
+	line-height:22px;
+	font-weight:bold;
+}
+
+.middle_content{
+	background:url(../images/text_post.jpg) no-repeat;
+	width:420px;
+	height:638px;
+	float:left;
+	margin-left:18px;
+	padding-left:20px;
+}
+
+.middle_content_in{
+	width:375px;
+}
+
+.middle_content h3{
+	font-size:18px;
+	color:#000;
+	font-weight:bold;
+	margin-top:30px;
+	
+}
+
+.middle_content h5{
+	font-size:14px;
+	text-align:justify;
+	color:#000;
+	margin-top:30px;	
+	font-weight: normal;
+	line-height:24px;
+}
+
+.link_post_center{ float:right;}
+
+.link_post_center a{
+	font-size:12px;
+	color:#3c1401;
+	font-weight:bold;
+}
+
+.link_post_center a:hover{
+	text-decoration:none;
+}
+
+.right_content{
+	width:227px;
+	float:left;
+}
+
+.celander{
+	background:url(../images/bg_middle_box_right.gif) repeat-y;
+	width:226px;
+	margin-top:10px;
+	
+}
+
+.bg_topcelander{
+	background:url(../images/bg_top_box_right.gif) top no-repeat;
+}
+
+.bg_bottomcelander{
+	background:url(../images/bg_bottom_box_right.gif) bottom no-repeat;
+	padding:5px;
+}
+
+.content_celander{
+	width:214px;
+}
+
+.cinema{
+	background:url(../images/bg_lichchieuphim.gif) no-repeat;
+	margin-top:1px;
+	height:143px;
+	padding-top:10px;
+}
+
+.content_cinema{
+	background:url(../images/dot_line_film.gif) repeat;
+	width:98%;
+	margin:auto;
+}
+
+.content_cinema h3{
+	font-size:12px;
+	color:#4d4d4d;
+	line-height:16px;
+	display:block;
+	margin:0px;
+	padding:0px;
+	font-weight:normal;
+}
+
+.audio_books{
+	margin-top:10px;
+	padding-left:5px;
+}
+
+.line_content{
+	background:url(../images/line_bottom.gif) repeat-x;
+	width:1000px;
+	margin:25px auto 0px auto;
+	height:23px;
+	padding-bottom:20px;
+}
+
+.hoavan{
+	background:url(../images/hoavan.jpg) no-repeat;
+	width:151px;
+	margin:auto;
+	height:23px;
+}
+
+
+.footer{
+	background:url(../images/bg_bottom.jpg) repeat-x;
+	height:291px;
+}
+
+.footer_in{
+	width:982px;
+	margin:0px auto 0px auto;
+	padding-top:130px;
+}
+
+.menu_footer{
+	background:url(../images/line_bottom2.gif) bottom repeat-x;
+	width:982px;
+	overflow:hidden;
+}
+
+.box_footer1{
+	width:190px;
+	float:left;
+	margin-right:6px;
+}
+
+.box_footer1 img{
+	width:67px;
+	float:left;
+}
+
+.box_footer1 h3{
+	width:115px;
+	float:left;
+	margin:0px 0px 0px 8px;
+	padding:0px;
+	text-align:left;
+}
+
+.box_footer1 h3 a{
+	text-decoration:none;
+	font-weight:bold;
+	color:#dac8a2;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.box_footer1 p{
+	font-weight: normal;
+	color:#aa826e;
+	font:11px Arial, Helvetica, sans-serif;
+	padding:8px 0px 40px 0px;
+	margin:0px;.
+}
+
+.text_footer{
+	width:1000px;
+	text-align:center;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#c28870;
+	padding-top:10px;
+}
+
+
+.ddimgtooltip{
+display:none;
+position:absolute;
+border:1px solid black;
+background:white;
+color: black;
+z-index:2000;
+}
