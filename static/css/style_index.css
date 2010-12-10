@@ -200,24 +200,8 @@ body{
 	width:1000px;
 	margin:-13px auto 20px auto;
 	height:23px;
-	/* padding-bottom:20px; */
     border:0;
 }
-/* .line_content{ */
-/* 	background:url(../images/line_bottom.gif) repeat-x; */
-/* 	width:1000px; */
-/* 	margin:25px auto 0px auto; */
-/* 	height:23px; */
-/* 	padding-bottom:20px; */
-/* } */
-
-/* .hoavan{ */
-/* 	background:url(../images/hoavan.jpg) no-repeat; */
-/* 	width:151px; */
-/* 	margin:auto; */
-/* 	height:23px; */
-/* } */
-
 
 footer{
 	background:url(../images/bg_bottom.jpg) repeat-x;
