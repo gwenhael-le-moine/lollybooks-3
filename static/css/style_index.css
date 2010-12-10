@@ -12,11 +12,13 @@ body{
 }
 
 /* Gwh */
-.menu-item {float:left}
+.menu-item {float:left;
+           height:80px}
 .menutop{
 	margin:auto;
 	width:1000px;
     height:81px;
+    padding-left:15px;
 }
 
 .menutop a{
