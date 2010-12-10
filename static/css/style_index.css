@@ -128,20 +128,27 @@ body{
 }
 
 .calendar{
-	background:url(../images/bg_middle_box_right.gif) repeat-y;
-	width:226px;
+	/* background:url(../images/bg_middle_box_right.gif) repeat-y; */
+	/* width:226px; */
 	margin-top:10px;
-	
+    /* Gwh */
+    border:1px rgb(161,135,125) solid;
+    background-color:rgb(242,228,199);
+    border-radius:7px;
+    -webkit-border-radius:7px;
+    -moz-border-radius:7px;
+    padding:4px;
+    width:215px;
 }
 
-.bg_topcalendar{
-	background:url(../images/bg_top_box_right.gif) top no-repeat;
-}
+/* .bg_topcalendar{ */
+/* 	background:url(../images/bg_top_box_right.gif) top no-repeat; */
+/* } */
 
-.bg_bottomcalendar{
-	background:url(../images/bg_bottom_box_right.gif) bottom no-repeat;
-	padding:5px;
-}
+/* .bg_bottomcalendar{ */
+/* 	background:url(../images/bg_bottom_box_right.gif) bottom no-repeat; */
+/* 	padding:5px; */
+/* } */
 
 .content_calendar{
 	width:214px;
