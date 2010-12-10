@@ -12,8 +12,7 @@ body{
 }
 
 /* Gwh */
-.menu-item {float:left;
-           height:80px}
+.menu-item {float:left}
 .menutop{
 	margin:auto;
 	width:1000px;
