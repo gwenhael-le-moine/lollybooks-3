@@ -134,11 +134,18 @@ body{
     /* Gwh */
     border:1px rgb(161,135,125) solid;
     background-color:rgb(242,228,199);
+    padding:4px 4px 0 4px;
+    width:215px;
+    /* css3 */
     border-radius:7px;
     -webkit-border-radius:7px;
     -moz-border-radius:7px;
-    padding:4px;
-    width:215px;
+
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=1, Color='gray'); /* IE */
+    -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=1, Color='gray')"; /* IE8 */ 
 }
 
 /* .bg_topcalendar{ */
@@ -149,6 +156,8 @@ body{
 /* 	background:url(../images/bg_bottom_box_right.gif) bottom no-repeat; */
 /* 	padding:5px; */
 /* } */
+
+.title_calendar {height:30px}
 
 .content_calendar{
 	width:214px;
