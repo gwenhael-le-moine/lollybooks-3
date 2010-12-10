@@ -11,9 +11,12 @@ body{
 	height:511px;
 }
 
+/* Gwh */
+.menu-item {float:left}
 .menutop{
 	margin:auto;
 	width:1000px;
+    height:81px;
 }
 
 .menutop a{

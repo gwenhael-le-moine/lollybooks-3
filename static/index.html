@@ -23,13 +23,30 @@
 
     <!--menutop-->
     <nav class="menutop">
-	  <a href="#"><img src="images/home.jpg" width="80" height="78" border="0" /></a>
-      <a href="#"><img src="images/about_us.jpg" border="0" /></a>
-      <a href="#"><img src="images/services.jpg"  border="0" /></a>
-      <a href="#"><img src="images/logo.jpg" border="0" /></a>
-      <a href="#"><img src="images/event.jpg" border="0" /></a>
-      <a href="#"><img src="images/libary.jpg" border="0" /></a>
-      <a href="#"><img src="images/club.jpg"  border="0" /></a>
+	  <div class="menu-header">
+        <ul id="menu-navigation" class="menu left">
+          <li class="menu-item">
+	        <a href="#"><img src="images/home.jpg" width="80" height="78" border="0" /></a>
+          </li>
+          <li class="menu-item">
+            <a href="#"><img src="images/about_us.jpg" border="0" /></a>
+          </li>
+          <li class="menu-item">
+            <a href="#"><img src="images/services.jpg"  border="0" /></a>
+          </li>
+          <li class="menu-item">
+            <a href="#"><img src="images/logo.jpg" border="0" /></a>
+          </li>
+          <li class="menu-item">
+            <a href="#"><img src="images/event.jpg" border="0" /></a>
+          </li>
+          <li class="menu-item">
+            <a href="#"><img src="images/libary.jpg" border="0" /></a>
+          </li>
+          <li class="menu-item">
+            <a href="#"><img src="images/club.jpg"  border="0" /></a>
+          </li>
+        </ul>
     </nav>
     <!--/menutop-->
 
@@ -123,71 +140,67 @@
         <!--/right_content-->
         
       </div>
-      
-      <hr  class="frise"/>
-      
+      <hr class="frise"/>
     </div>
     <!--/content-->
 
 
     <!--bottom-->
     <footer>
-	  
       <div class="footer_in">
-    	
         <nav class="menu_footer">
-          
-          <div class="box_footer1">
-       	    <img src="images/img_footer1.gif" width="67" height="76" />
-            <h3>
-              <a href="#">Cảm nhận phim,Cảm nhận sách</a>
-              <p>Có gì mới tại 
-                Lollybooks Café?</p>
-            </h3>
-          </div>
-          
-          <div class="box_footer1">
-       	    <img src="images/img_footer2.gif" width="67" height="76" />
-            <h3>
-              <a href="#">Đời sống giới trẻ</a>
-              <p>Có gì mới tại 
-                Lollybooks Café?</p>
-            </h3>
-          </div>
-          
-          <div class="box_footer1">
-       	    <img src="images/img_footer3.gif" width="67" height="76" />
-            <h3>
-              <a href="#">Blog</a>
-              <p>Có gì mới tại 
-                Lollybooks Café?</p>
-            </h3>
-          </div>
-          
-          <div class="box_footer1">
-       	    <img src="images/img_footer4.gif" width="67" height="76" />
-            <h3>
-              <a href="#">Đối tác</a>
-              <p>Có gì mới tại 
-                Lollybooks Café?</p>
-            </h3>
-          </div>
-          
-          <div class="box_footer1">
-       	    <img src="images/img_footer5.gif" width="67" height="76" />
-            <h3>
-              <a href="#">Liên hệ</a>
-              <p>Có gì mới tại 
-                Lollybooks Café?</p>
-            </h3>
-          </div>
-          
+          <ul>
+            <li>
+              <div class="box_footer1">
+       	        <img src="images/img_footer1.gif" width="67" height="76" />
+                <h3>
+                  <a href="#">Cảm nhận phim,Cảm nhận sách</a>
+                  <p>Có gì mới tại Lollybooks Café?</p>
+                </h3>
+              </div>
+            </li>
+            <li>
+              <div class="box_footer1">
+       	        <img src="images/img_footer2.gif" width="67" height="76" />
+                <h3>
+                  <a href="#">Đời sống giới trẻ</a>
+                  <p>Có gì mới tại Lollybooks Café?</p>
+                </h3>
+              </div>
+            </li>
+            <li>
+              <div class="box_footer1">
+       	        <img src="images/img_footer3.gif" width="67" height="76" />
+                <h3>
+                  <a href="#">Blog</a>
+                  <p>Có gì mới tại Lollybooks Café?</p>
+                </h3>
+              </div>
+            </li>
+            <li>
+              <div class="box_footer1">
+       	        <img src="images/img_footer4.gif" width="67" height="76" />
+                <h3>
+                  <a href="#">Đối tác</a>
+                  <p>Có gì mới tại Lollybooks Café?</p>
+                </h3>
+              </div>
+              
+              <div class="box_footer1">
+       	        <img src="images/img_footer5.gif" width="67" height="76" />
+                <h3>
+                  <a href="#">Liên hệ</a>
+                  <p>Có gì mới tại Lollybooks Café?</p>
+                </h3>
+              </div>
+            </li>
+          </ul>
       	</nav>
         
-        <div class="text_footer">Copyright © 2010 lollybooks. All right reserved. Địa chỉ: Số 18, ngõ 131, Thái Hà. Điện thoại: 04.6276.8545 - Email: info@lollybooks.com </div>
-        
+        <div class="text_footer">
+          Copyright © 2010 lollybooks. All right reserved. Địa chỉ: Số 18, ngõ 131, Thái Hà. Điện thoại: 04.6276.8545 - Email: info@lollybooks.com
+        </div>
       </div>
-      
     </footer>
     <!--/bottom-->
 
@@ -218,7 +231,6 @@ function slideSwitch() {
     // var $sibs  = $active.siblings();
     // var rndNum = Math.floor(Math.random() * $sibs.length );
     // var $next  = $( $sibs[ rndNum ] );
-
 
     $active.addClass('last-active');
 
