@@ -9,8 +9,7 @@ function slideSwitch() {
     if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
 
     // use this to pull the images in the order they appear in the markup
-    var $next =  $active.next().length ? $active.next()
-        : $('#slideshow IMG:first');
+    var $next =  $active.next().length ? $active.next() : $('#slideshow IMG:first');
 
     // uncomment the 3 lines below to pull the images in random order
     
