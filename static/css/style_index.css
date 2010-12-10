@@ -127,23 +127,23 @@ body{
 	float:left;
 }
 
-.celander{
+.calendar{
 	background:url(../images/bg_middle_box_right.gif) repeat-y;
 	width:226px;
 	margin-top:10px;
 	
 }
 
-.bg_topcelander{
+.bg_topcalendar{
 	background:url(../images/bg_top_box_right.gif) top no-repeat;
 }
 
-.bg_bottomcelander{
+.bg_bottomcalendar{
 	background:url(../images/bg_bottom_box_right.gif) bottom no-repeat;
 	padding:5px;
 }
 
-.content_celander{
+.content_calendar{
 	width:214px;
 }
 
@@ -261,6 +261,14 @@ background:white;
 color: black;
 z-index:2000;
 }
+
+/* Gwh */
+/* mini-reset for aside's widgets */
+ul {
+    margin:0;
+    padding:0;
+    border:0}
+li {list-style:none}
 
 /* Slideshow */
 /*** set the width and height to match your images **/
