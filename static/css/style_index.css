@@ -30,6 +30,7 @@ img {border:0}
 .content{
 	background:url(../images/bg_content.jpg) no-repeat center top;
 	padding-top:60px;
+    margin-top:2px;
 }
 
 .content_in{
@@ -101,8 +102,8 @@ img {border:0}
 .middle_content_in{
 	width:375px;
 }
-
-.middle_content h1 a {
+.middle_content .entry-title {margin-bottom:0}
+.middle_content .entry-title a {
 	font-size:18px;
 	color:#000;
 	font-weight:bold;
@@ -116,9 +117,10 @@ img {border:0}
 	font-size:14px;
 	text-align:justify;
 	color:#000;
-	margin-top:30px;	
+	margin-top:16px;	
 	font-weight: normal;
 	line-height:24px;
+    padding-right:3px;
     overflow:auto;
 }
 
@@ -140,8 +142,6 @@ img {border:0}
 }
 
 .calendar{
-	/* background:url(../images/bg_middle_box_right.gif) repeat-y; */
-	/* width:226px; */
 	margin-top:10px;
     /* Gwh */
     border:1px rgb(161,135,125) solid;
@@ -159,15 +159,6 @@ img {border:0}
     filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=1, Color='gray'); /* IE */
     -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=1, Color='gray')"; /* IE8 */ 
 }
-
-/* .bg_topcalendar{ */
-/* 	background:url(../images/bg_top_box_right.gif) top no-repeat; */
-/* } */
-
-/* .bg_bottomcalendar{ */
-/* 	background:url(../images/bg_bottom_box_right.gif) bottom no-repeat; */
-/* 	padding:5px; */
-/* } */
 
 .title_calendar {height:30px}
 
@@ -188,7 +179,7 @@ img {border:0}
 	margin:auto;
 }
 
-.content_cinema h3{
+.content_cinema li{
 	font-size:12px;
 	color:#4d4d4d;
 	line-height:16px;
