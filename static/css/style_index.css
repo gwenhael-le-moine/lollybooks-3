@@ -6,6 +6,7 @@ body{
 	margin:0px;		
 }
 
+img {border:0}
 .banner_top{
 	background:url(../images/banner.jpg) center no-repeat;
 	height:511px;
@@ -101,21 +102,24 @@ body{
 	width:375px;
 }
 
-.middle_content h3{
+.middle_content h1 a {
 	font-size:18px;
 	color:#000;
 	font-weight:bold;
+    text-decoration:none;
 	margin-top:30px;
 	
 }
 
-.middle_content h5{
+.middle_content .entry-content {
+    height:513px;
 	font-size:14px;
 	text-align:justify;
 	color:#000;
 	margin-top:30px;	
 	font-weight: normal;
 	line-height:24px;
+    overflow:auto;
 }
 
 .link_post_center{ float:right;}
